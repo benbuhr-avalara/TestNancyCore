@@ -7,7 +7,11 @@
 
 ### Getting Started
 
-Run the following command to publish the app:
+First we need to restore the dependencies for .NET Core. Do that by entering the following command:
+
+    dotnet restore
+
+Next, run the following command to publish the app:
 
     dotnet publish
 
